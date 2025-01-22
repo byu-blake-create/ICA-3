@@ -8,18 +8,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./styles.css ">
+    <link rel="stylesheet" type="text/css" href="/styles/styles.css ">
     <title>Stan for Star Wars Prequels</title>
 </head>
 <body>
     <!-- Header of the website-->
-    <section id = header_section>
+    <section id = "header_section">
         <h1>STAR WARS PREQUELS</h1>
+    </section>
+
+    <!-- Navigation -->
+    <section id = "navigation_section">
+        <a href="./pages/Characters.html">
+            <h2>Characters Page</h2>
+        </a>
+        <a href="./pages/Reception.html">
+            <h2>Reception Page</h2>
+        </a>
     </section>
     
 
     <!--Description Section-->
-    <section id = "description_section">
+    <section class = "description_section">
         <h2>About the Movie</h2>
         <p>The Star Wars prequel trilogy, colloquially referred to as the prequels, is a series of epic space-opera films written and directed by George Lucas.The films follow the training of the powerful youth 
         <span class="jedi_underline">Anakin Skywalker</span> as a Jedi under the tutelage of Jedi Masters <span class="jedi_underline">Qui-Gon Jinn, Obi-Wan Kenobi and Yoda</span>, his fall to the dark side of the Force and rebirth as <span class="jedi_underline">Darth Vader</span>. The trilogy also depicts the corruption of the Galactic Republic, the annihilation of the Jedi Order, and the rise of the Empire under <span class="jedi_underline">Palpatine</span></p>
@@ -27,25 +37,13 @@
         <!--Photo of all three movies-->
         <a  href="https://shorturl.at/JRvGd"
             target="_blank">
-            <img src="./Overview.jpg" alt="All prequel movies together" id="overview-image" >
+            <img src="./img/Overview.jpg" alt="All prequel movies together" id="overview-image" >
         </a>   
     </section>
 
 
     <!--Fact Section-->
-    <section id = "fact_section">
-        <h3>Characters</h3>
-        <ul>
-            <li>Anakin Skywalker</li>
-            <li>
-                <span id="space_jesus">
-                Obi-Wan Kenobi </span>
-                (Space Jesus)
-            </li>
-            <li>Padme Amidala</li>
-        </ul>
-        
-
+    <section class = "fact_section">
         <h3>Movie Release Order</h3>
         <ol>
             <li>Star Wars Episode I: The Phantom Menace</li>
@@ -59,24 +57,24 @@
 
 
     <!--Table Section-->
-    <section id="table_section">
+    <section class="table_section">
         <table>
             <!--Titles-->
             <tr>
-                <th></th>
+                <th>E1: The Phantom Menace</th>
                 <th>E2: The Attack of the Clones</th>
                 <th>E3: The Revenge of the Sith</th>
             </tr>
             <!--Images-->
             <tr>
                 <td>
-                    <img src="./Episode1.jpeg" alt="Episode 1" class="table-image">
+                    <img src="./img/Episode1.jpeg" alt="Episode 1" class="table-image">
                 </td>
                 <td> 
-                    <img src="./Episode2.jpeg" alt="Episode 2" class="table-image">
+                    <img src="./img/Episode2.jpeg" alt="Episode 2" class="table-image">
                 </td>
                 <td> 
-                    <img src="./Episode3.jpeg" alt="Episode 3" class="table-image">
+                    <img src="./img/Episode3.jpeg" alt="Episode 3" class="table-image">
                 </td>
             </tr>
             <!--Descriptions-->
@@ -95,7 +93,7 @@
 
 
     <!--Quote Section--> 
-    <section id="quote_section">
+    <section class="quote_section">
         <h3>Quotes</h3>
         <!--Blockquote-->
         <blockquote>

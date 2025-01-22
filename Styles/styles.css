@@ -43,8 +43,8 @@ code{
 }
 
 /*I realize this next part is better done with a class than individual ID's but as ID's were required in the last assignment I decided to leave them just in case they are needed to show mastery*/
-section#description_section, 
-section#fact_section, section#table_section, section#quote_section{
+section.description_section, 
+section.fact_section, section.table_section, section.quote_section{
     background-color: blanchedalmond;
     width: 80%;
     margin-right: auto;
@@ -71,6 +71,10 @@ th, td{
     text-align: center;
 }
 
+.centered-text{
+    text-align: center;
+    justify-content: center;
+}
 
 .table-image{
     width: 200px;
@@ -97,4 +101,8 @@ button{
     background-color: #2FF924 ;
     color: black;
     box-shadow: 10px 5px 5px #007FFF;
+}
+
+.bold{
+    font-weight: bold;
 }
