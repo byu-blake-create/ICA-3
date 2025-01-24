@@ -1,0 +1,108 @@
+/* ./styles.css */
+
+/*
+letter-spacing
+
+width
+height
+max-width or min-width
+max-height or min-height
+*/
+
+body {
+    background-color: #f0f0f0;
+    color: #333333;
+    font-family: Helvetica, 'Arial Narrow', serif, sans-serif;
+    font-size: 14px;
+}
+ 
+section > p,
+section > blockquote{
+    line-height: 1.5;
+}
+
+#space_jesus{
+    font-weight: 600;
+}
+
+ol > li > span#favorite_movie{
+    font-style: italic;
+}
+
+h1{
+    text-align: center;
+}
+
+.jedi_underline{
+    text-decoration: underline;
+}
+
+code{
+    font-family: 'Courier New',Courier, monospace;
+    letter-spacing: 0.07em;
+}
+
+/*I realize this next part is better done with a class than individual ID's but as ID's were required in the last assignment I decided to leave them just in case they are needed to show mastery*/
+section.description_section, 
+section.fact_section, section.table_section, section.quote_section{
+    background-color: blanchedalmond;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#description_section img{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    min-height: 120px;
+    
+}
+/*table stylings*/
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td{
+    padding: px;
+    text-align: center;
+}
+
+.centered-text{
+    text-align: center;
+    justify-content: center;
+}
+
+.table-image{
+    width: 200px;
+    height: auto;
+    aspect-ratio: 16/9;
+}
+/*for the first image on the page*/
+section #overview-image{
+    border-radius: 0px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*button stylings*/
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*The hex codes used below are the official hex codes for "lightsaber green" and "Lightsaber blue"*/
+button{
+    background-color: #2FF924 ;
+    color: black;
+    box-shadow: 10px 5px 5px #007FFF;
+}
+
+.bold{
+    font-weight: bold;
+}
